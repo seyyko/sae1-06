@@ -1,15 +1,6 @@
-/* 
-<main id="main">
-    <article id="art1">
-        <div class="thumbnail"></div>
-        <div class="description"></div>
-    </article>
-    <article id="art2">
-        <div class="thumbnail"></div>
-        <div class="description"></div>
-    </article>
-</main>
- */
+#main{
+    min-height: 100vh;
+}
 
 article{
     width: 100%; min-height: 100vh;

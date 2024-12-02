@@ -18,7 +18,7 @@ body{
     background-color: var(--bg-primary);
     color: var(--txt-color-primary);
     font-family: 'Playfair Display';
-    min-height: 200vh;
+    min-height: 100vh;
 }
 
 li{
