@@ -1,0 +1,7 @@
+.hover-cursor-event:hover{
+    cursor: pointer;
+}
+
+.underline-onhover:hover{
+    text-decoration: underline 1px solid var(--txt-color-primary);
+}
