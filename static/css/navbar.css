@@ -7,7 +7,7 @@
     display: flex; align-items: center;
     
     background-color: var(--bg-primary);
-    box-shadow: 0 0 10px 5px var(--txt-color-primary);
+    box-shadow: 0 0 5px 1px var(--txt-color-primary);
 
     font-size: clamp(16px, 2vw, 24px);
 

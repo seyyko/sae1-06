@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="static/css/font.css">
     <link rel="stylesheet" href="static/css/custom_cusor.css">
     <link rel="stylesheet" href="static/css/navbar.css">
-    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/css/formulaire.css">
 
     <title>Justice & Big Data | formulaire</title>
 
@@ -68,7 +68,76 @@
     </nav>
 
     <main id="main">
-
+        <div class="full-form montserrat">
+            <form class="contact-form" action="https://webinfo.iutmontp.univ-montp2.fr/~eturosenfeld/php_pour_TD5/exempleTraitement.php" method="post">
+                <div class="form-display">
+                    <section class="first-layer">
+                        <div>
+                            <label for="nom">Nom</label>
+                            <input type="text" id="nom" name="nom" placeholder="Ex : Dupont" required>
+                        </div>
+                        <div>
+                            <label for="prenom">Prénom</label>
+                            <input type="text" id="prenom" name="prenom" placeholder="Ex : Jean" required>
+                        </div>
+                        <div>
+                            <label for="code-postal">Code postal</label>
+                            <input type="text" id="code-postal" name="code_postal" placeholder="Ex : 34000" pattern="\d{5}" required>
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Ex : jean.dupont@example.com" required>
+                        </div>
+                    </section>
+            
+                    
+                    <div class="select-pays">
+                        <label for="pays">Pays</label>
+                        <select id="pays" name="pays" required>
+                            <option value="" disabled selected>Choisissez un pays</option>
+                            <option value="france">France</option>
+                            <option value="belgique">Belgique</option>
+                            <option value="suisse">Suisse</option>
+                            <option value="canada">Canada</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+            
+                    <fieldset class="form-question">
+                        <legend>Vous avez entendu parler de nous via :</legend>
+                        <label>
+                            <input type="checkbox" name="source[]" value="internet">
+                            <p>Internet</p>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="source[]" value="ami">
+                            <p>Un ami</p>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="source[]" value="publicite">
+                            <p>Publicité</p>
+                        </label>
+                        <label>
+                            <input type="checkbox" name="source[]" value="autre">
+                            <p>Autre</p>
+                        </label>
+                    </fieldset>
+    
+                    <section class="bottom-layer">
+                        <div>
+                            <label for="date">Date à laquelle vous souhaitez être recontacté</label>
+                            <input type="date" id="date" name="date_contact" required>
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Écrivez votre message ici..." required></textarea>
+                        </div>
+                    </section>
+                </div>
+            
+                <button class="submit-btn" type="submit">Envoyer</button>
+            </form> 
+        </div>       
     </main>
 
     <footer id="footer">

@@ -19,6 +19,8 @@ body{
     color: var(--txt-color-primary);
     font-family: 'Playfair Display';
     min-height: 100vh;
+    position: relative;
+    top: 80px;
 }
 
 li{
@@ -28,4 +30,37 @@ li{
 a{
     text-decoration: none;
     color: var(--txt-color-primary);
+}
+
+#main{
+    min-height: 100vh;
+}
+
+#footer{
+    margin-top: 80px;
+    width: 100%;
+
+    display: flex; flex-direction: column;
+    align-items: center;
+    .navlist{
+        width: 80%;
+        padding-block: 10px 30px;
+        margin-bottom: 40px;
+
+        display: flex;
+        border-top: 1px solid var(--bg-tertiary);
+        li{
+            padding-inline: 2vw;
+            font-size: clamp(8px, 1vw, 16px);
+        }
+    }
+    .copyrights{
+        width: 100%;
+        padding-top: 10px;
+        
+        border-top: 1px solid var(--bg-tertiary);
+        p{
+            padding: 5px 25px;
+        }
+    }
 }
