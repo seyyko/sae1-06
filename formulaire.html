@@ -21,7 +21,7 @@
     
     <nav id="navbar">
         <ul>
-            <li class="left-box uppercase fw700">
+            <li class="left-box uppercase fw300 montserrat">
                 <ul>
                     <li>
                         <a class="underline-onhover" href="index.html">accueil</a>
@@ -74,19 +74,19 @@
                     <section class="first-layer">
                         <div>
                             <label for="nom">Nom</label>
-                            <input type="text" id="nom" name="nom" placeholder="Ex : Dupont" required>
+                            <input class="focus-cursor-event" type="text" id="nom" name="nom" required>
                         </div>
                         <div>
                             <label for="prenom">Prénom</label>
-                            <input type="text" id="prenom" name="prenom" placeholder="Ex : Jean" required>
+                            <input class="focus-cursor-event" type="text" id="prenom" name="prenom" required>
                         </div>
                         <div>
                             <label for="code-postal">Code postal</label>
-                            <input type="text" id="code-postal" name="code_postal" placeholder="Ex : 34000" pattern="\d{5}" required>
+                            <input class="focus-cursor-event" type="text" id="code-postal" name="code_postal" pattern="\d{5}" required>
                         </div>
                         <div>
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="Ex : jean.dupont@example.com" required>
+                            <input class="focus-cursor-event" type="email" id="email" name="email" required>
                         </div>
                     </section>
             
@@ -104,39 +104,39 @@
                     </div>
             
                     <fieldset class="form-question">
-                        <legend>Vous avez entendu parler de nous via :</legend>
+                        <legend class="bold">Vous avez entendu parler de nous via</legend>
                         <label>
-                            <input type="checkbox" name="source[]" value="internet">
-                            <p>Internet</p>
+                            <input type="checkbox" name="source" value="internet">
+                            <p class="fw300">Internet</p>
                         </label>
                         <label>
-                            <input type="checkbox" name="source[]" value="ami">
-                            <p>Un ami</p>
+                            <input type="checkbox" name="source" value="ami">
+                            <p class="fw300">Un ami</p>
                         </label>
                         <label>
-                            <input type="checkbox" name="source[]" value="publicite">
-                            <p>Publicité</p>
+                            <input type="checkbox" name="source" value="publicite">
+                            <p class="fw300">Publicité</p>
                         </label>
                         <label>
-                            <input type="checkbox" name="source[]" value="autre">
-                            <p>Autre</p>
+                            <input type="checkbox" name="source" value="autre">
+                            <p class="fw300">Autre</p>
                         </label>
                     </fieldset>
     
                     <section class="bottom-layer">
                         <div>
                             <label for="date">Date à laquelle vous souhaitez être recontacté</label>
-                            <input type="date" id="date" name="date_contact" required>
+                            <input class="focus-cursor-event"  type="date" id="date" name="date_contact" required>
                         </div>
                         <div>
                             <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" placeholder="Écrivez votre message ici..." required></textarea>
+                            <textarea id="message" name="message" rows="5" required></textarea>
                         </div>
                     </section>
                 </div>
-            
                 <button class="submit-btn" type="submit">Envoyer</button>
-            </form> 
+            </form>
+            <div class="form-thumbnail"></div>
         </div>       
     </main>
 
@@ -161,23 +161,23 @@
             <li class="uppercase fw300">
                 <ul>
                     <li>
-                        <a class="underline-onhover" href="">condition d'utilisateurs</a>
+                        <a class="underline-onhover" href="#">condition d'utilisateurs</a>
                     </li>
                     <li>
-                        <a class="underline-onhover" href="">politique de confidentialité</a>
+                        <a class="underline-onhover" href="#">politique de confidentialité</a>
                     </li>
                     <li>
-                        <a class="underline-onhover" href="">à propos</a>
+                        <a class="underline-onhover" href="#">à propos</a>
                     </li>
                 </ul>
             </li>
             <li class="uppercase fw300">
                 <ul>
                     <li>
-                        <a class="underline-onhover" href="">faq</a>
+                        <a class="underline-onhover" href="#">faq</a>
                     </li>
                     <li>
-                        <a class="underline-onhover" href="">support</a>
+                        <a class="underline-onhover" href="#">support</a>
                     </li>
                 </ul>
             </li>

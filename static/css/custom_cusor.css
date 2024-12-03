@@ -5,3 +5,7 @@
 .underline-onhover:hover{
     text-decoration: underline 1px solid var(--txt-color-primary);
 }
+
+.focus-cursor-event:focus{
+    outline: 2px solid var(--bg-tertiary);
+}
