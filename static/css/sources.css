@@ -1,28 +1,26 @@
-.art-link{
-    color: var(--link-color);
-}
-
-#main{
+#main {
+    min-height: max-content;
     display: flex; flex-wrap: wrap;
-    justify-content: center;
+    gap: 10px;
+    padding-inline: 2vw;
 }
 
-article{
-    width: 700px; max-width: 100%;
+article {
+    flex: 1 1 600px;
     padding: 10px;
-
-    display: flex; flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    font-size: clamp(8px, 2vw, 16px);
 }
 
 .drop-btn{
     --btn-border: 10px;
     min-height: 80px;
+    height: auto;
 
     display: flex;
-    justify-content: space-between;
 
-    background-color: var(--bg-secondary);
-    box-shadow: 0 0 5px 0 var(--bg-tertiary);
+    box-shadow: 0 0 5px 0 var(--bg-secondary);
     border-radius: 10px;
     border-bottom-right-radius: var(--btn-border);
     border-bottom-left-radius: var(--btn-border);
@@ -32,19 +30,20 @@ article{
 
     transition: border-radius .4s ease;
     .source-title, span{
-        height: 100%;
+        min-height: 80px;
         display: flex;
         align-items: center;
-        padding-inline: 40px;
     }
     .source-title{
         background-color: var(--bg-primary);
         flex: 1;
+        padding-inline: 4vw;
+
     }
     span{
         --angle-drop-icon: 0deg;
         background-color: var(--bg-tertiary);
-        width: 100px;
+        padding-inline: 4vw;
         display: flex;
         justify-content: center; align-items: center;
         cursor: pointer;
@@ -59,18 +58,22 @@ article{
 
 .dropbox{
     --dropbox-posY: -50px;
-    padding: 10px 40px;
+    --dropbox-max-height: 0;
+    --dropbox-paddingY: 0;
+    --dropbox-vis: hidden;
     transform: translateY(var(--dropbox-posY));
-    opacity: 0;
+    opacity: 0; visibility: var(--dropbox-vis);
 
     background-color: var(--bg-primary);
-    box-shadow: 0 0 5px var(--bg-tertiary);
+    box-shadow: 0 0 5px var(--bg-secondary);
 
     border-bottom-left-radius: var(--drop-border);
     border-bottom-right-radius: var(--drop-border);
     filter: blur(10px);
-    
-    transition: all .4s ease;
+    max-height: var(--dropbox-max-height);
+    padding: var(--dropbox-paddingY) 40px;
+
+    transition: all .3s ease;
 }
 
 .drop{
@@ -78,6 +81,9 @@ article{
     --angle-drop-icon: 45deg;
     --btn-border: 0px;
     --drop-border: 10px;
+    --dropbox-max-height: 1000px;
+    --dropbox-paddingY: 10px;
+    --dropbox-vis: visible;
     opacity: 1;
     filter: none;
 }
