@@ -5,8 +5,8 @@
     --bg-tertiary: black;
 
     --txt-color-primary: black;
-    --weak-txt-color: rgb(152, 152, 152);
     --description-color: white;
+    --link-color: rgb(0, 98, 255);
 }
 
 *, body{
