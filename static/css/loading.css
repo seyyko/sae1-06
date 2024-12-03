@@ -32,7 +32,7 @@
 }
 
 .cpt{
-    width: 60px; height: 140px;
+    width: 60px; height: 150px;
     position: relative;
     overflow: hidden;
     &::before, &::after{
@@ -47,7 +47,7 @@
         backdrop-filter: brightness(.1);
     }
     &::before{
-        top: 0;
+        top: -1px;
     }
     &::after{
         bottom: 0;
