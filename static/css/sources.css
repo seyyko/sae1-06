@@ -73,7 +73,7 @@ article {
     max-height: var(--dropbox-max-height);
     padding: var(--dropbox-paddingY) 40px;
 
-    transition: all .3s ease;
+    transition: all .3s ease, max-height .15s ease;
 }
 
 .drop{
