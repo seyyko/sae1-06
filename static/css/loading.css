@@ -47,7 +47,7 @@
         backdrop-filter: brightness(.1);
     }
     &::before{
-        top: -1px;
+        top: -5px;
     }
     &::after{
         bottom: 0;
