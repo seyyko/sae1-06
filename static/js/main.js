@@ -21,6 +21,14 @@ function drop(dropbtn) {
     dropbtn.closest('.drop-btn').nextElementSibling.classList.toggle('drop', isOpen);
 }
 
+let minLoadTime = 3000;
+
 window.addEventListener('load', () => {
-    console.log('Page and all resources are fully loaded!');
+    let loadTime = performance.now();
+
+    let remainingTime = Math.max(0, minLoadTime - loadTime);
+
+    setTimeout(() => {
+        document.querySelector('.loading').style.display = "none";
+    }, remainingTime);
 });
