@@ -21,6 +21,6 @@ function drop(dropbtn) {
     dropbtn.closest('.drop-btn').nextElementSibling.classList.toggle('drop', isOpen);
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('document loaded !');
+window.addEventListener('load', () => {
+    console.log('Page and all resources are fully loaded!');
 });
