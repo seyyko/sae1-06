@@ -20,3 +20,7 @@ function drop(dropbtn) {
     dropbtn.closest('.drop-btn').classList.toggle('drop', isOpen);
     dropbtn.closest('.drop-btn').nextElementSibling.classList.toggle('drop', isOpen);
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('document loaded !');
+});
