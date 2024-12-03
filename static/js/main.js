@@ -14,3 +14,9 @@ menuBtn.addEventListener('click', () => {
     });
     hiddenNavMenu.classList.toggle("visible");
 })
+
+function drop(dropbtn) {
+    const isOpen = dropbtn.querySelector('.btn-icon').classList.toggle('drop');
+    dropbtn.closest('.drop-btn').classList.toggle('drop', isOpen);
+    dropbtn.closest('.drop-btn').nextElementSibling.classList.toggle('drop', isOpen);
+}
