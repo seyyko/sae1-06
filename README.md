@@ -1,4 +1,4 @@
-# Controverse Sociotechnique - SAÉ 1.6
+# Controverse Sociotechnique - SAÉ 1.06
 
 ## 🌐 Sujet du site web
 Ce site présente une controverse sociotechnique dans le cadre de la SAÉ 1.6. Il a été conçu pour être responsive et inclut plusieurs pages permettant d’explorer différents aspects du sujet.
@@ -68,16 +68,13 @@ root/
 
 ## 📋 Hébergement
 
-Le site est hébergé sur mon **VPS** et peut être consulté à l'adresse suivante :  
-**[https://hchamrouk.com/sae1-06/](https://hchamrouk.com/sae1-06/)**
-La réponse du formulaire est aussi hébergé sur mon **VPS** ici :
-**[https://hchamrouk.com/sae1-06/form.php](https://hchamrouk.com/sae1-06/form.php)**
+Le site est hébergé sur mon **VPS** et peut être consulté à l'adresse suivante : **[https://hchamrouk.com/sae1-06/](https://hchamrouk.com/sae1-06/)**
+
+La réponse du formulaire est aussi hébergé sur mon **VPS** ici : **[https://hchamrouk.com/sae1-06/form.php](https://hchamrouk.com/sae1-06/form.php)**
 
 ---
 
 ## 📑 Validation
-- **HTML5** : Validé avec le validateur W3C.
-- **CSS3** : Validé avec le validateur W3C.
 - **Responsive** : Testé sur différents navigateurs (Chrome, Edge, Firefox, Safari) et tailles d'écran (ordinateur, tablette, smartphone).
 
 ---
