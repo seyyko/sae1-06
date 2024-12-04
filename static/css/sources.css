@@ -43,7 +43,8 @@ article {
     span{
         --angle-drop-icon: 0deg;
         background-color: var(--bg-tertiary);
-        padding-inline: 4vw;
+        width: 10vw;
+        max-width: 120px;
         display: flex;
         justify-content: center; align-items: center;
         cursor: pointer;
