@@ -37,6 +37,7 @@ root/
 ├── poster-scientifique.html        # Première page thématique
 ├── formulaire.html                 # Deuxième page thématique
 ├── sources.html                    # Page de formulaire
+├── form.php                        # réponse du formulaire
 ├── static/
 │   └── css/
 │       └── styles.css              # style principale de la page
@@ -46,11 +47,12 @@ root/
 │       └── poster_scientifique.css # style de la page du poster
 │       └── formulaire.css          # style du formulaire
 │       └── sources.css             # style de la page des sources
+│       └── form_anwser.css         # style de la page php
 │   └── js/
 │       └── main.js                 # script principale
 │   └── img/                        # Dossier contenant les images utilisées
 │       └── article1_thumbnail.jpg  # vignette de l'article 1 (page d'accueil)
-│       └── article1_thumbnail.jpg  # 2emme vignette
+│       └── article1_thumbnail.jpg  # 2eme vignette
 │       └── form_thumbnail.jpg      # vignette du formulaire
 │       └── poster.png              # poster scientifique
 └── README.md                       # Fichier d'explications (vous lisez ce fichier !)
@@ -62,6 +64,8 @@ root/
 
 Le site est hébergé sur mon **VPS** et peut être consulté à l'adresse suivante :  
 **[https://hchamrouk.com/sae1-06/](https://hchamrouk.com/sae1-06/)**
+La réponse du formulaire est aussi hébergé sur mon **VPS** ici :
+**[https://hchamrouk.com/sae1-06/form.php](https://hchamrouk.com/sae1-06/form.php)**
 
 ---
 
