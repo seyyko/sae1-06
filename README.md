@@ -70,8 +70,6 @@ La réponse du formulaire est aussi hébergé sur mon **VPS** ici :
 ---
 
 ## 📑 Validation
-- **HTML5** : Validé avec le validateur W3C.
-- **CSS3** : Validé avec le validateur W3C.
 - **Responsive** : Testé sur différents navigateurs (Chrome, Edge, Firefox, Safari) et tailles d'écran (ordinateur, tablette, smartphone).
 
 ---
