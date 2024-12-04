@@ -12,12 +12,13 @@
 *, body{
     padding: 0; margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
     background-color: var(--bg-primary);
     color: var(--txt-color-primary);
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
     min-height: max-content;
     position: relative;
 }

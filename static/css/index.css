@@ -25,8 +25,8 @@ article{
     }
     p{
         padding-block: 10px;
-        max-width: 60%;
-        font-size: clamp(12px, 2vw, 16px);
+        max-width: 80%;
+        font-size: clamp(12px, 2vw, 20px);
     }
 }
 
