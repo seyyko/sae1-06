@@ -1,0 +1,30 @@
+#main{
+    min-height: max-content;
+    padding-inline: 10vw;
+    display: flex; flex-direction: column;
+    gap: 4px;
+    h1{
+        margin-bottom: 60px;
+    }
+    p{
+        font-size: clamp(10px, 2vw, 20px);
+        display: flex;
+        gap: 4px;
+    }
+    strong, span{
+        padding: 5px 10px;
+        flex: 1;
+    }
+    strong{
+        background-color: var(--bg-tertiary);
+        color: var(--description-color);
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    span{
+        flex: 3;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
+
