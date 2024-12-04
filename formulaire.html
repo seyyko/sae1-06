@@ -69,7 +69,7 @@
 
     <main id="main">
         <div class="full-form montserrat">
-            <form class="contact-form" action="https://webinfo.iutmontp.univ-montp2.fr/~eturosenfeld/php_pour_TD5/exempleTraitement.php" method="post">
+            <form class="contact-form" action="form.php" method="post">
                 <div class="form-display">
                     <section class="first-layer">
                         <div>
@@ -106,19 +106,19 @@
                     <fieldset class="form-question">
                         <legend class="bold">Vous avez entendu parler de nous via</legend>
                         <label>
-                            <input type="checkbox" name="source" value="internet">
+                            <input type="checkbox" name="source[]" value="internet">
                             <p class="fw300">Internet</p>
                         </label>
                         <label>
-                            <input type="checkbox" name="source" value="ami">
+                            <input type="checkbox" name="source[]" value="ami">
                             <p class="fw300">Un ami</p>
                         </label>
                         <label>
-                            <input type="checkbox" name="source" value="publicite">
+                            <input type="checkbox" name="source[]" value="publicite">
                             <p class="fw300">Publicité</p>
                         </label>
                         <label>
-                            <input type="checkbox" name="source" value="autre">
+                            <input type="checkbox" name="source[]" value="autre">
                             <p class="fw300">Autre</p>
                         </label>
                     </fieldset>
