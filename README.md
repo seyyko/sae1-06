@@ -1,4 +1,4 @@
-# Controverse Sociotechnique - SAÉ 1.6
+# Controverse Sociotechnique - SAÉ 1.06
 
 ## 🌐 Sujet du site web
 Ce site présente une controverse sociotechnique dans le cadre de la SAÉ 1.6. Il a été conçu pour être responsive et inclut plusieurs pages permettant d’explorer différents aspects du sujet.
