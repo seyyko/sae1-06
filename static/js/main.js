@@ -21,7 +21,7 @@ function drop(dropbtn) {
     dropbtn.closest('.drop-btn').nextElementSibling.classList.toggle('drop', isOpen);
 }
 
-let minLoadTime = 2100;
+let minLoadTime = 2800;
 
 window.addEventListener('load', () => {
     let loadTime = performance.now();
